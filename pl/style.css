@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.logo {
+    width: 140px;
+    height: 140px;
+}
+.logo1 {
+    width: 400px;
+    height: 400px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	font-size: 20px;
+	color: black !important;
+	font-weight: 500;
+	font-family: 'Lato';
+	text-align: center;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: rgba(168,168,168,255)!important;
+	transition: 0.8s;
+}
+
+.nav-link1 {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+    font-family: 'Lato'sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;  
+}
+.nav-link:hover {
+    color: black;
+}
+
+.nav-link1:hover {
+    color: white;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Lato', sans-serif;
+    border: 2px solid rgb(64, 155, 240);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(64, 155, 240);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.main{
+    background: url(./img/background1.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+}
+.main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+.btn1{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(64, 155, 240);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.btnpl {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    background-color: rgba(255,92,234,255);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btneng {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    background-color: rgba(168,168,168,255);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btnde {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    background-color: rgba(74,114,255,255);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.img-fluid {
+    height: 100px;
+    width: 100px;
+}
+h1 {
+    font-weight: 700;
+}
+.back1 {
+    background: url(./img/obraz8.jpg)no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+}
+
+.back2 {
+    background: url(./img/map.jpg)no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 55vh;
+    width: 100%;
+}
+
+.container-card {
+    justify-content: center;
+   margin: 10%;
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 1.5s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.5);
+}
+/*----------Footer----------*/
+
+#footer {
+    text-align: center;
+    padding: 100px;
+    background-color: #efefef;
+    color: #013f7e;
+}
+
+.footer-logo {
+    width: 150px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+#footer h1 {
+    font-size: 15px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#footer p {
+    font-size: 12px;
+    text-align: left;
+}
+
+#footer .city {
+    margin-left: 37px;
+}
+
+#footer .fab, .fas, .far {
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+#footer hr {
+    margin-top: 10px;
+}
+
+#footer .copyright {
+    margin-bottom: -80px;
+    text-align: center;
+    font-size: 15px;
+}
